@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表单制作工厂</title>
+    <meta name="keywords" content="表单制作工厂">
+    <meta name="description" content="表单制作工厂,PC建站,网页制作">
+    <style type="text/css">
+      .loading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+      }
+      .loading span {
+        color: #8B90A0;
+        animation: animate 2.5s ease infinite alternate;
+      }
+      .loading span:nth-child(1) {
+        animation-delay: .25s;
+      }
+      .loading span:nth-child(2) {
+        animation-delay: .5s;
+      }
+      .loading span:nth-child(3) {
+        animation-delay: .75s;
+      }
+      .loading span:nth-child(4) {
+        animation-delay: 1s;
+      }
+      .loading span:nth-child(5) {
+        animation-delay: 1.25s;
+      }
+      .loading span:nth-child(6) {
+        animation-delay: 1.5s;
+      }
+      .loading span:nth-child(7) {
+        animation-delay: 1.75s;
+      }
+      .loading span:nth-child(8) {
+        animation-delay: 2s;
+      }
+      .loading span:nth-child(9) {
+        animation-delay: 2.25s;
+      }
+      .loading span:nth-child(10) {
+        animation-delay: 2.5s;
+      }
+      @keyframes animate {
+        from { font-size: 1em }
+        to { font-size: 4em }
+      }
+      @-webkit-keyframes animate {
+        from { font-size: 1em }
+        to { font-size: 4em }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="loading">
+        <span>f</span>
+        <span>o</span>
+        <span>r</span>
+        <span>m</span>
+        <span>-</span>
+        <span>f</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>o</span>
+        <span>r</span>
+        <span>y</span>
+      </div>
+    </div>
+  </body>
+</html>
